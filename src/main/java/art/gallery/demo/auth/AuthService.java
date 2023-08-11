@@ -38,7 +38,7 @@ public class AuthService {
                 .firstname(request.getFirstname())
                 .lastname(request.getLastname())
                 .country(request.getCountry())
-                .role(Role.USER)
+                .role(Role.ADMIN)
                 .status(Status.APTO)
                 .build();
 
