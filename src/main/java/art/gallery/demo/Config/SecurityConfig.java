@@ -47,7 +47,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.addAllowedOrigin("http://localhost:4200"); // Permitir origen http://localhost:4200
+        configuration.addAllowedOrigin("https://resonant-salmiakki-5e751d.netlify.app"); // Permitir origen http://localhost:4200
         configuration.addAllowedMethod("*"); // Permitir todos los métodos HTTP
         configuration.addAllowedHeader("*"); // Permitir todos los encabezados
 

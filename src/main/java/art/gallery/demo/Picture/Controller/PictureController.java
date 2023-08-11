@@ -18,7 +18,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/v1/votacion")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://resonant-salmiakki-5e751d.netlify.app")
 public class PictureController {
 
     private final PictureService pictureService;
